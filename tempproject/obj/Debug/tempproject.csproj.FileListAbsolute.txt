@@ -1,0 +1,11 @@
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\bin\Debug\tempproject.exe.config
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\bin\Debug\tempproject.exe
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\bin\Debug\tempproject.pdb
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.csprojAssemblyReference.cache
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.Form1.resources
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.pinfo.resources
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.Properties.Resources.resources
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.csproj.GenerateResource.cache
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.csproj.CoreCompileInputs.cache
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.exe
+C:\Users\Rafi Samnan\source\repos\tempproject\tempproject\obj\Debug\tempproject.pdb
