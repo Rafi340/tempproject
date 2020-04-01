@@ -10,9 +10,38 @@ namespace tempproject
         public Form1()
         {
             InitializeComponent();
-          
-        }
+            customizeDesing();
+            hideSubMenu();
 
+        }
+        private void customizeDesing()
+        {
+            panel2.Visible = false;
+            panel3.Visible = false;
+            //button4.Visible = false;
+            //button5.Visible = false;
+        }
+        private void hideSubMenu()
+        {
+            if(panel2.Visible==true)
+            {
+                panel2.Visible = false;
+            }
+            if(panel3.Visible==true)
+            {
+                panel3.Visible = false;
+            }
+        }
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
             
@@ -43,6 +72,66 @@ namespace tempproject
                 MessageBox.Show("Wrong Password");
             }
             sqlCmd.Connection.Close();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        //Home
+        private void Home_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panel2);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+        // contact
+        private void button6_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panel3);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }
